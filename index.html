@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-background":"#1c1c19","on-error-container":"#93000a","outline-variant":"#d1c4c0","tertiary-fixed":"#ffdbcf","background":"#fcf9f4","surface-container-lowest":"#ffffff","surface-container":"#f0ede9","surface-container-highest":"#e5e2dd","on-tertiary-fixed-variant":"#72351f","primary-container":"#1e1b1a","error":"#ba1a1a","on-tertiary-fixed":"#380c00","on-primary-container":"#888381","surface-bright":"#fcf9f4","on-surface":"#1c1c19","inverse-on-surface":"#f3f0eb","secondary-container":"#fec074","on-surface-variant":"#4d4542","surface":"#fcf9f4","surface-variant":"#e5e2dd","on-tertiary-container":"#bb7056","surface-container-low":"#f6f3ee","on-secondary":"#ffffff","on-tertiary":"#ffffff","secondary-fixed-dim":"#f8bb70","inverse-primary":"#ccc5c3","tertiary":"#000000","on-primary-fixed-variant":"#4a4644","primary-fixed":"#e9e1df","on-secondary-fixed":"#2a1700","error-container":"#ffdad6","on-secondary-fixed-variant":"#653e00","tertiary-fixed-dim":"#ffb59c","on-primary":"#ffffff","outline":"#7f7572","surface-container-high":"#ebe8e3","primary-fixed-dim":"#ccc5c3","secondary-fixed":"#ffddb8","surface-tint":"#625d5c","on-error":"#ffffff","on-secondary-container":"#794d08","tertiary-container":"#380c00","surface-dim":"#dcdad5","secondary":"#825511","inverse-surface":"#31302d","on-primary-fixed":"#1e1b1a","primary":"#000000"},borderRadius:{DEFAULT:"0.125rem",lg:"0.25rem",xl:"0.5rem",full:"0.75rem"},spacing:{"space-sm":"0.5rem","margin-mobile":"1.25rem","space-xl":"3rem","margin-tablet":"2rem","space-md":"1rem","space-xs":"0.25rem","gutter-mobile":"1rem","space-lg":"1.75rem","gutter":"1.5rem","margin":"4rem"},fontFamily:{"body-sm":["Plus Jakarta Sans"],"headline-sm":["Playfair Display"],"headline-md":["Playfair Display"],"headline-lg":["Playfair Display"],"display-lg-mobile":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"display-lg":["Playfair Display"]},fontSize:{"body-sm":["13px",{lineHeight:"20px",fontWeight:"400"}],"headline-sm":["22px",{lineHeight:"30px",fontWeight:"600"}],"headline-md":["28px",{lineHeight:"36px",fontWeight:"500"}],"headline-lg":["40px",{lineHeight:"48px",letterSpacing:"-0.01em",fontWeight:"400"}],"display-lg-mobile":["38px",{lineHeight:"44px",letterSpacing:"-0.01em",fontWeight:"400"}],"headline-lg-mobile":["28px",{lineHeight:"34px",fontWeight:"400"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.08em",fontWeight:"600"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.1em",fontWeight:"600"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"body-md":["15px",{lineHeight:"24px",fontWeight:"400"}],"display-lg":["56px",{lineHeight:"64px",letterSpacing:"-0.02em",fontWeight:"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="AURA Bistro &amp; Hearth Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WQLHOsLf6zo_4XNhkn7ucTJ4Xo5km-flo2XnrC2i2uNJ-Wk31_RBcOujNcRdK1qotS6PhaJ4epFtMi9wNvSnzbLfqpIICF_2NrciQPdGzEYiWtNAfKTGkBg6N-LA2ZePGkpW620wJ0QmlbUzyzLg3jpfniUg1Jvqf-T_XmqDduV1kmdQXkyTj7crXOYlGgCV37NpI-S2OqOLO9TzFfdjJnKxi-m5rXxZ4R1TF-l5Rq1S9lrjYIZZqIhVjx"/><a class="flex flex-col" data-path="aura-dining-experience" href="#"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface leading-none">AURA</span><span class="font-label-sm text-label-sm tracking-widest uppercase text-secondary leading-none mt-space-xs">Bistro &amp; Hearth</span></a></div><nav class="hidden xl:flex items-center gap-space-md lg:gap-space-lg" data-active-classes="bg-secondary-container text-on-secondary-container font-semibold rounded-lg"><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-space-xs px-space-sm" data-path="about-our-story" href="#about">About</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-space-xs px-space-sm" data-path="culinary-menu" href="#menu">Menu</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-space-xs px-space-sm" data-path="hearth-specials" href="#specials">Specials</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-space-xs px-space-sm" data-path="visual-gallery" href="#gallery">Gallery</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-space-xs px-space-sm" data-path="guest-reviews" href="#reviews">Reviews</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-space-xs px-space-sm" data-path="table-reservation" href="#reservation">Reservation</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors py-space-xs px-space-sm" data-path="contact-and-hours" href="#contact">Contact &amp; Hours</a></nav><div class="flex items-center gap-space-sm lg:gap-space-md"><a class="hidden sm:inline-flex font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors items-center gap-space-xs pr-space-xs" href="tel:+14155550198"><span class="font-label-sm text-label-sm tracking-wider uppercase font-semibold text-secondary">(415) 555-0198</span></a><a class="inline-flex items-center justify-center bg-secondary text-on-secondary px-space-md py-space-sm rounded font-label-md text-label-md tracking-wider uppercase shadow-[0_0_20px_rgba(254,192,116,0.35)] hover:bg-on-surface hover:text-surface transition-all duration-300" data-path="table-reservation" href="#reservation">Reserve Table</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- SECTION 1: HERO -->
+<section class="relative -mt-20 min-h-[92vh] flex items-center justify-center overflow-hidden bg-primary-container text-surface-container-lowest" id="hero">
+<!-- Background Image with Scrim -->
+<div class="absolute inset-0 z-0 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDtAVweBy9E8iVpwSp2yBUfP557XsbP7BGILGeGQHzVnVYeFELCcU0qJC99tQapSqP2XB_vxmADToZpcO32nNue0rBakC8aJODjglcDoCq9B_GYgZvDMSnXAwtHcFcNbByah5znLtRbyD2OUFRsI3Ymdb25Px6yeLVcB-LhGTbPjLYsK5prjRbwCfpb2XNVPTfSVOR71RZq0H-f9hSq6ZakjNL-_2gtMMjSDjFOqDaA7sAvtXR9o3SIMg');">
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container via-primary-container/70 to-primary-container/40"></div>
+<div class="absolute inset-0 bg-radial from-transparent via-primary-container/50 to-primary-container/90"></div>
+</div>
+<!-- Hero Content -->
+<div class="relative z-10 max-w-5xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin pt-36 pb-20 text-center flex flex-col items-center">
+<!-- Tagline Pill -->
+<div class="inline-flex items-center gap-space-xs bg-surface-container-lowest/10 backdrop-blur-md px-4 py-1.5 rounded-full mb-space-lg shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="font-label-sm text-label-sm tracking-widest text-secondary-container uppercase">Michelin Recommended • Wood-Fired Artisanal Cuisine</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg tracking-tight mb-space-md text-surface-container-lowest max-w-4xl">
+        Where Ancient Flame Meets Modern Gastronomy
+      </h1>
+<!-- Subheading -->
+<p class="font-body-lg text-body-lg text-surface-variant/90 max-w-2xl mb-space-xl font-light leading-relaxed">
+        An intimate culinary sanctuary rooted in sustainable sourcing, heritage charcoal roasting, and biodynamic pairings in the heart of the culinary district.
+      </p>
+<!-- Action Buttons -->
+<div class="flex flex-col sm:flex-row items-center gap-space-md w-full sm:w-auto">
+<a class="w-full sm:w-auto px-8 py-4 bg-secondary-container text-on-secondary-fixed font-label-md text-label-md uppercase tracking-wider rounded shadow-lg hover:bg-secondary hover:text-surface-container-lowest transition-all duration-300 flex items-center justify-center gap-2 group" href="#reservation">
+<span>Book a Table</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">east</span>
+</a>
+<a class="w-full sm:w-auto px-8 py-4 bg-surface-container-lowest/15 backdrop-blur-sm text-surface-container-lowest font-label-md text-label-md uppercase tracking-wider rounded hover:bg-surface-container-lowest/25 transition-all duration-300 flex items-center justify-center" href="#menu">
+          Explore Our Menu
+        </a>
+</div>
+<!-- Highlights Ribbon -->
+<div class="mt-20 w-full max-w-4xl grid grid-cols-2 md:grid-cols-4 gap-gutter bg-surface-container-lowest/5 backdrop-blur-md p-6 rounded-xl">
+<div class="flex flex-col items-center justify-center text-center">
+<span class="font-headline-sm text-headline-sm text-secondary-container font-serif">Est. 2018</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-surface-variant/70 mt-1">Heritage Fire</span>
+</div>
+<div class="flex flex-col items-center justify-center text-center">
+<span class="font-headline-sm text-headline-sm text-surface-container-lowest">White Oak</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-surface-variant/70 mt-1">Fire-Roasted Daily</span>
+</div>
+<div class="flex flex-col items-center justify-center text-center">
+<div class="flex items-center gap-1">
+<span class="font-headline-sm text-headline-sm text-secondary-container">4.9</span>
+<span class="material-symbols-outlined text-secondary-container text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-surface-variant/70 mt-1">1,200+ Guest Reviews</span>
+</div>
+<div class="flex flex-col items-center justify-center text-center">
+<span class="font-headline-sm text-headline-sm text-surface-container-lowest">Laurent &amp; Elena</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-surface-variant/70 mt-1">Culinary &amp; Wine Masters</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: ABOUT US -->
+<section class="py-24 bg-surface" id="about">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin">
+<!-- Section Header -->
+<div class="flex flex-col items-center text-center mb-16">
+<span class="font-label-sm text-label-sm tracking-widest text-secondary uppercase mb-2">Our Culinary Roots</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">The Alchemical Dialogue of Wood, Smoke &amp; Earth</h2>
+<div class="w-12 h-0.5 bg-secondary mt-4"></div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left: Image Duo -->
+<div class="lg:col-span-6 grid grid-cols-2 gap-4 relative">
+<div class="space-y-4">
+<div class="h-64 sm:h-80 rounded-xl overflow-hidden shadow-md">
+<img class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" data-alt="Close up of a charismatic master chef meticulously plating roasted heirloom root vegetables and prime charcoal steak with culinary tweezers inside a warm ambient restaurant kitchen, warm candlelight tones, dark background, cinematic culinary photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOtVaouq-4FnebIOgBZsAg0QMlFNHlhfibNadkvJhJKHdviqh4ZV1b_vEZPMjbEJFrNITBIKtaWx6TSTwVbRHHkuv4HU5LrKYxWjZnO-aRm5xcM3yc_5M2-ZlPsze0rCvWTHBC7BGVYM7q87DtW8RfWZ8IEYkkI8g23aOJF6beKXSuJvKh0x8YfXdDYhbPvBotd4Gl9RGuKz55IZ-4WpT0fLEjSEaGoCHaB2KrNMhXafAvIwZsKUDuQA"/>
+</div>
+<div class="p-6 bg-surface-container rounded-xl">
+<span class="material-symbols-outlined text-secondary text-2xl mb-2">local_florist</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-1">Locally Foraged</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Daily botanical harvest from Sonoma coastlines and wild forest canopies.</p>
+</div>
+</div>
+<div class="space-y-4 pt-8">
+<div class="p-6 bg-primary-container text-surface-container-lowest rounded-xl">
+<span class="material-symbols-outlined text-secondary-container text-2xl mb-2">wine_bar</span>
+<h4 class="font-headline-sm text-headline-sm text-surface-container-lowest mb-1">450+ Natural Wines</h4>
+<p class="font-body-sm text-body-sm text-surface-variant/80">Rare biodynamic vintages curated by Master Sommelier Elena Vance.</p>
+</div>
+<div class="h-64 sm:h-80 rounded-xl overflow-hidden shadow-md">
+<img class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" data-alt="A glowing bespoke open wood-fired hearth furnace with glowing red embers, crackling oak logs, and cast iron pans smoking lightly in an upscale rustic fine dining kitchen, amber warmth, tactile shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBvytSmWPt_0TxsdmXnTnYIfdsMEgA4YD3_M0kF1dLScRO8o24_hrisx1D6oCCsTI9KPx29We7_zWMRdiRGAZyNUomotK0JlH_Gd5tXvHxcSemlNlOOqTavRFsZXLKQSTED5t9eLJgHRnRKw7kaIdUX8ix9tO2feiKHJacz3VftrX_cUO9CtBLU7fFIKWF3Gk2W9uxq2nPxO2SEEAI5BmKxFKzO4KORBAKnInKaw7C3KSWmO9RoyC9zg"/>
+</div>
+</div>
+</div>
+<!-- Right: Storytelling & Quote -->
+<div class="lg:col-span-6 flex flex-col justify-center lg:pl-8 mt-8 lg:mt-0">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary mb-3">Founders &amp; Philosophies</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-6 leading-tight">
+            Crafting raw thermal drama into effortless contemporary comfort.
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
+            Founded by Executive Chef Laurent Vance—formerly culinary director across Parisian three-star dining rooms—and Master Sommelier Elena Vance, AURA was born from an unyielding devotion to primal gastronomy. 
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 leading-relaxed">
+            Every dish centers on our custom-engineered 9-foot open brick hearth, burning seasoned California white oak, fruitwood, and binchotan charcoal. We collaborate with generational regenerative farmers to secure rare heritage legumes, dry-aged heritage beef, and line-caught seafood hours after harvest.
+          </p>
+<!-- Quote Card -->
+<div class="bg-surface-container-low p-6 rounded-xl relative shadow-sm">
+<div class="absolute -top-3 left-6 bg-secondary text-surface-container-lowest rounded-full w-7 h-7 flex items-center justify-center">
+<span class="material-symbols-outlined text-sm">format_quote</span>
+</div>
+<blockquote class="font-headline-sm text-headline-sm italic text-on-surface mb-3 pt-2">
+              “Cooking over open embers is not a technique; it is a primal dialogue with flavor and memory.”
+            </blockquote>
+<cite class="font-label-sm text-label-sm uppercase tracking-wider text-secondary not-italic flex items-center gap-2">
+<span class="w-4 h-px bg-secondary"></span> Chef Laurent Vance
+            </cite>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: MENU -->
+<section class="py-24 bg-surface-container-low" id="menu">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin">
+<!-- Section Title -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+<div>
+<span class="font-label-sm text-label-sm tracking-widest text-secondary uppercase mb-2 block">Seasonal Wood-Fired Offerings</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">The Hearth Tasting &amp; À La Carte</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md mt-4 md:mt-0">
+          Cooked over white oak embers at variable thermal elevations. Updated weekly according to micro-season availability.
+        </p>
+</div>
+<!-- Filter Tabs -->
+<div class="flex flex-wrap items-center gap-2 sm:gap-4 mb-12 pb-4">
+<button class="menu-tab-btn px-5 py-2.5 rounded-full font-label-md text-label-md uppercase tracking-wider transition-all bg-primary text-surface-container-lowest shadow-sm" onclick="filterMenu('all', this)">
+          All Offerings
+        </button>
+<button class="menu-tab-btn px-5 py-2.5 rounded-full font-label-md text-label-md uppercase tracking-wider transition-all bg-surface-container text-on-surface-variant hover:text-on-surface" onclick="filterMenu('starters', this)">
+          Starters
+        </button>
+<button class="menu-tab-btn px-5 py-2.5 rounded-full font-label-md text-label-md uppercase tracking-wider transition-all bg-surface-container text-on-surface-variant hover:text-on-surface" onclick="filterMenu('mains', this)">
+          Wood-Fired Mains
+        </button>
+<button class="menu-tab-btn px-5 py-2.5 rounded-full font-label-md text-label-md uppercase tracking-wider transition-all bg-surface-container text-on-surface-variant hover:text-on-surface" onclick="filterMenu('desserts', this)">
+          Artisanal Desserts
+        </button>
+<button class="menu-tab-btn px-5 py-2.5 rounded-full font-label-md text-label-md uppercase tracking-wider transition-all bg-surface-container text-on-surface-variant hover:text-on-surface" onclick="filterMenu('drinks', this)">
+          Botanical Cocktails &amp; Wine
+        </button>
+</div>
+<!-- Menu Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="menu-grid">
+<!-- Dish 1 -->
+<div class="menu-item starters bg-surface-container-lowest rounded-xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-start justify-between gap-4 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Charred Heirloom Beet Carpaccio</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-medium">$22</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Smoked goat curd, candied walnuts, aged balsamic reduction, wild mountain miner's lettuce.
+            </p>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<span class="inline-flex items-center gap-1 bg-surface-container px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+<span class="material-symbols-outlined text-[13px] text-secondary">eco</span> Veg
+            </span>
+<span class="inline-flex items-center gap-1 bg-surface-container px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+              GF
+            </span>
+</div>
+</div>
+<!-- Dish 2 -->
+<div class="menu-item starters bg-surface-container-lowest rounded-xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-start justify-between gap-4 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Wood-Fired Spanish Octopus</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-medium">$28</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Saffron romesco, smoked fingerling potatoes, crispy Pantelleria capers, pickled shallot pearls.
+            </p>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<span class="inline-flex items-center gap-1 bg-secondary-container/30 px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-secondary-container">
+<span class="material-symbols-outlined text-[13px]">local_fire_department</span> Hearth Special
+            </span>
+</div>
+</div>
+<!-- Dish 3 -->
+<div class="menu-item starters bg-surface-container-lowest rounded-xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-start justify-between gap-4 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Truffled Wild Mushroom Tartlet</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-medium">$24</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Truffle cream, fresh thyme infusion, aged Gruyère flaky crust, preserved Meyer lemon zest.
+            </p>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<span class="inline-flex items-center gap-1 bg-surface-container px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+<span class="material-symbols-outlined text-[13px] text-secondary">eco</span> Veg
+            </span>
+</div>
+</div>
+<!-- Dish 4 -->
+<div class="menu-item mains bg-surface-container-lowest rounded-xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow relative overflow-hidden">
+<div class="absolute top-0 right-0 bg-secondary text-surface-container-lowest font-label-sm text-[10px] tracking-widest uppercase px-3 py-1 rounded-bl">Signature</div>
+<div>
+<div class="flex items-start justify-between gap-4 mb-2 pr-12">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">45-Day Dry-Aged A5 Wagyu Ribeye</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-medium">$88</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Slow-rendered bone marrow jus, blistered spring onions, Maldon smoked sea salt flakes, charcoal embers essence.
+            </p>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<span class="inline-flex items-center gap-1 bg-secondary-container/30 px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-secondary-container">
+<span class="material-symbols-outlined text-[13px]">local_fire_department</span> Flame Sear
+            </span>
+<span class="inline-flex items-center gap-1 bg-surface-container px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+              GF
+            </span>
+</div>
+</div>
+<!-- Dish 5 -->
+<div class="menu-item mains bg-surface-container-lowest rounded-xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-start justify-between gap-4 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Ember-Roasted Chilean Sea Bass</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-medium">$54</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Miso-mirin glaze, baby bok choy, dashi butter broth, charred scallion oil, crisp lotus crisp.
+            </p>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<span class="inline-flex items-center gap-1 bg-surface-container px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+              Catch of Day
+            </span>
+</div>
+</div>
+<!-- Dish 6 -->
+<div class="menu-item mains bg-surface-container-lowest rounded-xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-start justify-between gap-4 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Roasted Heritage Squash Risotto</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-medium">$36</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Ancient Acquerello grain, brown butter foam, sage crisp, toasted pumpkin seed oil, 30-month Parmigiano.
+            </p>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<span class="inline-flex items-center gap-1 bg-surface-container px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+<span class="material-symbols-outlined text-[13px] text-secondary">eco</span> Veg
+            </span>
+<span class="inline-flex items-center gap-1 bg-surface-container px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+              GF
+            </span>
+</div>
+</div>
+<!-- Dish 7 -->
+<div class="menu-item desserts bg-surface-container-lowest rounded-xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-start justify-between gap-4 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Smoked Dark Chocolate Fondant</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-medium">$18</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Valrhona 72% chocolate, smoked sea salt caramel center, Tahitian vanilla bean churned gelato.
+            </p>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<span class="inline-flex items-center gap-1 bg-surface-container px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+<span class="material-symbols-outlined text-[13px] text-secondary">eco</span> Veg
+            </span>
+</div>
+</div>
+<!-- Dish 8 -->
+<div class="menu-item desserts bg-surface-container-lowest rounded-xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-start justify-between gap-4 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Wood-Oven Roasted Figs</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-medium">$16</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Orange blossom whipped mascarpone, wild comb honey, pistachio dust, aged balsamic spray.
+            </p>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<span class="inline-flex items-center gap-1 bg-surface-container px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+<span class="material-symbols-outlined text-[13px] text-secondary">eco</span> Veg
+            </span>
+<span class="inline-flex items-center gap-1 bg-surface-container px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+              GF
+            </span>
+</div>
+</div>
+<!-- Dish 9 -->
+<div class="menu-item drinks bg-surface-container-lowest rounded-xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-start justify-between gap-4 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Ember &amp; Smoke Old Fashioned</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-medium">$21</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Small-batch rye, smoked cherrywood cloche infusion, angostura &amp; orange bitters, charred zest.
+            </p>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<span class="inline-flex items-center gap-1 bg-secondary-container/20 px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-secondary-container">
+              Botanical Bar
+            </span>
+</div>
+</div>
+<!-- Dish 10 -->
+<div class="menu-item drinks bg-surface-container-lowest rounded-xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-start justify-between gap-4 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Rosemary Botanical Spritz</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-medium">$18</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              House hearth-charred rosemary cordial, elderflower liqueur, sparkling biodynamic cava, verbena mist.
+            </p>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<span class="inline-flex items-center gap-1 bg-surface-container px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+              Aperitif
+            </span>
+</div>
+</div>
+</div>
+<!-- Download Menu CTA -->
+<div class="mt-14 text-center">
+<a class="inline-flex items-center gap-3 px-8 py-3.5 bg-surface-container-highest text-on-surface hover:bg-secondary hover:text-surface-container-lowest font-label-md text-label-md uppercase tracking-wider rounded transition-all duration-300" href="#reservation">
+<span class="material-symbols-outlined text-lg">download</span>
+<span>Download Full Seasonal Tasting Menu (PDF)</span>
+</a>
+</div>
+</div>
+</section>
+<!-- SECTION 4: CHEF'S SPECIAL & TASTING ODYSSEY -->
+<section class="py-24 bg-primary text-surface-container-lowest relative overflow-hidden" id="specials">
+<!-- Ambient Embers overlay effect -->
+<div class="absolute inset-0 bg-radial from-secondary-container/10 via-transparent to-transparent opacity-40 pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin relative z-10">
+<div class="bg-surface-container-lowest/5 rounded-2xl p-8 md:p-14 backdrop-blur-md shadow-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-7 space-y-6">
+<div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">stars</span> Exclusive Chef's Showcase
+            </div>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-surface-container-lowest leading-tight">
+              The Hearth Tasting Odyssey: 7-Course Wood-Fired Journey
+            </h2>
+<p class="font-body-md text-body-md text-surface-variant leading-relaxed">
+              Experience the definitive expression of AURA. Seven master courses crafted table-side or at our Chef's hearth counter, honoring the gradual nuances of smoke, caramelization, and rare biodynamic vineyard selections.
+            </p>
+<!-- Promo Perks Box -->
+<div class="bg-surface-container-lowest/10 p-5 rounded-xl space-y-2">
+<div class="flex items-center gap-2 text-secondary-container font-label-md text-label-md uppercase tracking-wider">
+<span class="material-symbols-outlined text-lg">wine_bar</span>
+<span>Twilight Welcome Pour Included</span>
+</div>
+<p class="font-body-sm text-body-sm text-surface-variant/90">
+                Complimentary Sommelier Selection Welcome Pour for reservations seated between 5:00 PM – 6:30 PM (Tuesday – Thursday).
+              </p>
+</div>
+<!-- Meta details -->
+<div class="flex flex-wrap items-center gap-6 pt-2">
+<div>
+<span class="font-label-sm text-label-sm text-surface-variant/60 uppercase block">Seating Cap</span>
+<span class="font-headline-sm text-headline-sm text-surface-container-lowest">18 Guests Nightly</span>
+</div>
+<div class="w-px h-8 bg-surface-container-lowest/20"></div>
+<div>
+<span class="font-label-sm text-label-sm text-surface-variant/60 uppercase block">Price</span>
+<span class="font-headline-sm text-headline-sm text-secondary-container">$165 <span class="font-body-sm text-body-sm text-surface-variant font-normal">/ guest</span></span>
+</div>
+<div class="w-px h-8 bg-surface-container-lowest/20"></div>
+<div>
+<span class="font-label-sm text-label-sm text-surface-variant/60 uppercase block">Wine Pairing</span>
+<span class="font-headline-sm text-headline-sm text-surface-container-lowest">+$95 <span class="font-body-sm text-body-sm text-surface-variant font-normal">optional</span></span>
+</div>
+</div>
+<div class="pt-4">
+<a class="inline-flex items-center justify-center gap-3 px-8 py-4 bg-secondary-container text-on-secondary-fixed rounded font-label-md text-label-md uppercase tracking-wider shadow-lg hover:bg-surface-container-lowest hover:text-on-surface transition-all duration-300" href="#reservation">
+<span>Claim Tasting Experience</span>
+<span class="material-symbols-outlined text-sm">east</span>
+</a>
+</div>
+</div>
+<!-- Right Card Accent Image -->
+<div class="lg:col-span-5 h-80 sm:h-96 rounded-xl overflow-hidden shadow-xl relative">
+<img class="w-full h-full object-cover" data-alt="Exquisite tasting course plate featuring ember-seared venison medallion with blackberry gastrique, smoked chanterelles, micro herbs on an artisanal ceramic dish, mood lighting from open flames" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCqlUX_CcssgkQwBVBQhDdn2mLR0ebkAHGkQGDcry2ePm4IRY5BgPB1RxWdg12Fi2UcLG44sT9_AQIFVGr6REsE9Yf5cdpNSlqWdgHnaHLPtoxow_Fvxheof3XNIT5Z1DVYksoxkwMUFLq8swqhguJqG8-SDuV6ecrmn9n35CdZAa4TuIKqY4eAhKF17U29yTC_PRc91qPv2vwMUtcp2gZiXk2ksHf9WL5wAa95Uf7HcW94s7okSHPGA"/>
+<div class="absolute bottom-4 left-4 right-4 bg-primary/80 backdrop-blur-md p-4 rounded-lg flex items-center justify-between">
+<div>
+<p class="font-label-md text-label-md text-surface-container-lowest font-medium">Chef Laurent Vance</p>
+<p class="font-body-sm text-[12px] text-surface-variant">Nightly Hearth Performance</p>
+</div>
+<span class="material-symbols-outlined text-secondary-container">restaurant_menu</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: VISUAL GALLERY -->
+<section class="py-24 bg-surface" id="gallery">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-sm text-label-sm tracking-widest text-secondary uppercase mb-2 block">Atmosphere &amp; Texture</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">The Hearth Gallery</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3">An immersion in flame, aged timber, crystal glassware, and culinary theater.</p>
+</div>
+<!-- Bento-Style Gallery Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-[220px]">
+<!-- Item 1 (Wide) -->
+<div class="md:col-span-2 md:row-span-2 group relative overflow-hidden rounded-xl bg-surface-container shadow-sm cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="An expansive candlelit luxury dining room with dark oak tables, patrons engaged in intimate conversation, glowing fireplace in the background, refined warm ambiance, high ceilings" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEG2zZ-qq5fhAJoAkoeKzK9iHfniQjffp9cr4cmdUDNAaC1CevEwfbmX8-HJLjVn0uH-CeEIzz9rHKMlDiErDRKRGDly69KbZDcuCPqqIqpJ6rrEIcFgE2f4gMbJ0O03jmWOBphhd72s37G4qn5naQDljPH3nrH7NUoolwXSucL7KCSPA6oUBM2rrHU2Vg2Ec7miCn8Z8ZeC8aWR_4XwLEdBhQv5Tsv-MgfCcX5MZiO01ddf2l4fOU8Q"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+<div class="flex items-center justify-between w-full text-surface-container-lowest">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-container">Ambience</span>
+<h4 class="font-headline-sm text-headline-sm">The Grand Hearth Sanctuary</h4>
+</div>
+<span class="material-symbols-outlined text-2xl text-secondary-container">zoom_in</span>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="group relative overflow-hidden rounded-xl bg-surface-container shadow-sm cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Flames curling around aged oak firewood in an open restaurant kitchen grill with sparks drifting gently into the flue, high sensory detail" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFKS_qlRljvqE4RNvWkddwSPnzt0fq1xRnxMkZmEb7J8hHFUkKsY_ds6AsITtu8PbcXDkqsBNJKV1RJCbtBHiGIWh7_VhtV9M9D_QBe3MqGkncMMHkWD59E9Gq5nP5SmXvqaHWzL3zWxzdxdNm_K9XTqUqYardiZM2Ch83N1XTlVSwYJ9Qz_gqq05nYNJfL3RejYndbYw7XuQAd-1EpN0nDc-SA2VuAOzihzPRqWwr-hW5C8MTOiJWMg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+<div class="flex items-center justify-between w-full text-surface-container-lowest">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-container">The Hearth</span>
+<p class="font-headline-sm text-headline-sm text-sm">Seasoned Oak &amp; Embers</p>
+</div>
+<span class="material-symbols-outlined text-xl text-secondary-container">zoom_in</span>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="group relative overflow-hidden rounded-xl bg-surface-container shadow-sm cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A delicate crystal wine glass filled with deep ruby biodynamic Pinot Noir next to vintage French wine bottles in a dimly lit vaulted cellar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBT3dQEkocfnMNsFR8qrH_BBMSsxUOzNmiYP6hH1NfhmvJPJXPLnHaMHTGFTfZv0IUK897OIN3pPT40PqpjQXMdMopJjd6GNxTaWubWEunkQiVqRAa6hxDUKxjUbiwug_VCHZJ3jkATJL1IP_DBwJE8hx5LE-JxuqO6dwwIWYXvWGuEfGCGDANn5mR8p2QQNQcYSJiGu33nCDzyBdkrsRj4SuuCyjzbW98j-Z_2Sef3nf_U0abQIQAyuw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+<div class="flex items-center justify-between w-full text-surface-container-lowest">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-container">The Cellar</span>
+<p class="font-headline-sm text-headline-sm text-sm">Rare Reserves &amp; Vintages</p>
+</div>
+<span class="material-symbols-outlined text-xl text-secondary-container">zoom_in</span>
+</div>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="group relative overflow-hidden rounded-xl bg-surface-container shadow-sm cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Artisanal hand-churned dessert with caramelized figs and micro greens plated on handmade matte black ceramic dishware" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7pd4DyseclEg8992wfOOzge1sdlQxKTrgZhW5vG8wZGyDiaxYBdX4C5xj-B2UDVN9kKv7YH6xVnAyrK9ixBgJ_Fy4ZR5Bhkh8KCdgO51Pubw0AbSPL0o8P-SagHaIR9K8qbv6ZourJXhOFfbbROU6NXX9DyS1abpAcQlkGWmNI7HZYGqQAkbo4GYcFf_w9Uk6iua2-ndXySz4Yt3pV7uWK9B9Oo6GHZxd1wMquGX-L7s6aMcu3LV_8w"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+<div class="flex items-center justify-between w-full text-surface-container-lowest">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-container">Culinary</span>
+<p class="font-headline-sm text-headline-sm text-sm">Botanical Fig Creation</p>
+</div>
+<span class="material-symbols-outlined text-xl text-secondary-container">zoom_in</span>
+</div>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="group relative overflow-hidden rounded-xl bg-surface-container shadow-sm cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Skilled bartender crafting a smoked cocktail behind a sleek mahogany bar with amber backlighting and aromatic smoke curling upward" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3vkIF9I_wvUpKwZgzqw7whkvzi4df6B353GuoAKDjnCugHjbJnNKj_uNyGJrfHio_vGAOCaN5HC5ugdVtJ-nKzpX2WjQhwmaXZrYWhLnNvh7SuCnnQV0Scupcn1kbQH2CNdEKBtHLrFiUW5Khnm7wl_tdu9QBA5S_XvKQEK5Vdxir40L8D7R22xGK187hht-FqGC1xQIPKODO6ZgDoyYxqnEldIaZCByXGxt5ZkXSEUQZZf8xXhp04w"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+<div class="flex items-center justify-between w-full text-surface-container-lowest">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-container">Cocktail Lounge</span>
+<p class="font-headline-sm text-headline-sm text-sm">Apothecary Bar Alchemy</p>
+</div>
+<span class="material-symbols-outlined text-xl text-secondary-container">zoom_in</span>
+</div>
+</div>
+</div>
+<!-- Item 6 (Wide) -->
+<div class="md:col-span-2 group relative overflow-hidden rounded-xl bg-surface-container shadow-sm cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Private dining room with long reclaimed wood banquet table set with bespoke silver cutlery, tall taper candles, and warm linen runners" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVcAVKJb35NO-f5M_OEfMQ_BICbxp9OY1Ml92RBLprnCQxcyABhqJBdnM-BlYmuwzOI9ZvVUhdZcsW0OBBEwmlCzuG_-jM3gj-3TjBfDi7JBeNTmssnxO31Zg2NeNlbfqLR79JSuTSquEHnkN09BBLO86n5d5i7Xq9fPMhV22Xs7vGF9_uCHWGqAoBryIjiCF2NQ_lj2LswNUskz8srC4PdLq5OjRu1DjMMHgR4z0DuON5jv7CYvbBfw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+<div class="flex items-center justify-between w-full text-surface-container-lowest">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-container">Ambience</span>
+<h4 class="font-headline-sm text-headline-sm">The Vance Private Salon</h4>
+</div>
+<span class="material-symbols-outlined text-2xl text-secondary-container">zoom_in</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: REVIEWS & ACCLAIM -->
+<section class="py-24 bg-surface-container-low" id="reviews">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin">
+<!-- Section Title -->
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-sm text-label-sm tracking-widest text-secondary uppercase mb-2 block">Critical Acclaim</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Voices From Our Hearth</h2>
+</div>
+<!-- Reviews Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+<!-- Review 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-secondary mb-4">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic mb-6 leading-relaxed">
+              “An unmatched sensory journey. The wagyu ribeye and ember-charred vegetables elevate dining to pure theatre. Easily the most exhilarating table in Northern California.”
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center font-headline-sm text-headline-sm text-secondary">
+              M
+            </div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-semibold">Marcus Sterling</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Food &amp; Wine Critic</p>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-secondary mb-4">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic mb-6 leading-relaxed">
+              “The warmth of the staff, the crackling fireplace, and Elena's wine selections made our 10th anniversary truly unforgettable. The attention to detail is remarkable.”
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center font-headline-sm text-headline-sm text-secondary">
+              J
+            </div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-semibold">Dr. Julian &amp; Sarah Vance</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Anniversary Celebration</p>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm flex flex-col justify-between md:col-span-2 lg:col-span-1">
+<div>
+<div class="flex items-center gap-1 text-secondary mb-4">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic mb-6 leading-relaxed">
+              “The best sea bass I have experienced in North America. Sublime ambience, zero culinary arrogance, and genuine, unhurried hospitality.”
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center font-headline-sm text-headline-sm text-secondary">
+              S
+            </div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-semibold">Sophie Chen</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Verified Diner • San Francisco</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Laurels Ribbon -->
+<div class="flex flex-wrap items-center justify-around gap-8 py-8 px-6 bg-surface-container rounded-xl">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-3xl">workspace_premium</span>
+<div>
+<p class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold">Michelin Guide</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Recommended 2024</p>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-3xl">military_tech</span>
+<div>
+<p class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold">Eater Awards</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Best Fine Dining Hearth 2023</p>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-3xl">award_star</span>
+<div>
+<p class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold">James Beard Foundation</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Outstanding Hospitality Nominee</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 7: INTERACTIVE RESERVATION FORM -->
+<section class="py-24 bg-surface relative" id="reservation">
+<div class="max-w-4xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="text-center mb-12">
+<span class="font-label-sm text-label-sm tracking-widest text-secondary uppercase mb-2 block">Your Hearth Experience</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Reserve Your Table</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Reservations open 30 days in advance. Parties exceeding 8 guests please inquire through private dining.
+        </p>
+</div>
+<div class="bg-surface-container-lowest p-8 md:p-12 rounded-2xl shadow-xl">
+<form class="space-y-8" id="reservation-form" onsubmit="handleReservation(event)">
+<!-- Row 1: Name, Email, Phone -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface font-medium">Full Name *</label>
+<input class="w-full bg-surface-container-low px-4 py-3 rounded text-on-surface font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-lowest shadow-sm" placeholder="Elena Rostova" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface font-medium">Email Address *</label>
+<input class="w-full bg-surface-container-low px-4 py-3 rounded text-on-surface font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-lowest shadow-sm" placeholder="elena@domain.com" required="" type="email"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface font-medium">Phone Number *</label>
+<input class="w-full bg-surface-container-low px-4 py-3 rounded text-on-surface font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-lowest shadow-sm" placeholder="(415) 555-0198" required="" type="tel"/>
+</div>
+</div>
+<!-- Row 2: Date & Guests -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface font-medium">Dining Date *</label>
+<input class="w-full bg-surface-container-low px-4 py-3 rounded text-on-surface font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-lowest shadow-sm" required="" type="date" value="2025-05-18"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface font-medium">Number of Guests</label>
+<div class="flex items-center gap-2">
+<button class="w-11 h-11 rounded bg-surface-container flex items-center justify-center text-on-surface hover:bg-secondary-container hover:text-on-secondary-fixed transition-colors font-bold" onclick="adjustGuests(-1)" type="button">−</button>
+<input class="w-full text-center bg-surface-container-low py-3 rounded text-on-surface font-body-sm text-body-sm font-semibold" id="guest-count-input" readonly="" type="text" value="2 Guests"/>
+<button class="w-11 h-11 rounded bg-surface-container flex items-center justify-center text-on-surface hover:bg-secondary-container hover:text-on-secondary-fixed transition-colors font-bold" onclick="adjustGuests(1)" type="button">+</button>
+</div>
+</div>
+</div>
+<!-- Preferred Time Slots -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface font-medium">Preferred Time Slot *</label>
+<div class="grid grid-cols-2 sm:grid-cols-5 gap-3" id="time-slot-container">
+<button class="time-slot-btn py-3 px-2 rounded text-center font-label-md text-label-md uppercase tracking-wider bg-secondary-container text-on-secondary-fixed font-semibold" onclick="selectTime(this)" type="button">5:00 PM</button>
+<button class="time-slot-btn py-3 px-2 rounded text-center font-label-md text-label-md uppercase tracking-wider bg-surface-container text-on-surface hover:bg-secondary-container/40" onclick="selectTime(this)" type="button">6:00 PM</button>
+<button class="time-slot-btn py-3 px-2 rounded text-center font-label-md text-label-md uppercase tracking-wider bg-surface-container text-on-surface hover:bg-secondary-container/40" onclick="selectTime(this)" type="button">7:15 PM</button>
+<button class="time-slot-btn py-3 px-2 rounded text-center font-label-md text-label-md uppercase tracking-wider bg-surface-container text-on-surface hover:bg-secondary-container/40" onclick="selectTime(this)" type="button">8:30 PM</button>
+<button class="time-slot-btn py-3 px-2 rounded text-center font-label-md text-label-md uppercase tracking-wider bg-surface-container text-on-surface hover:bg-secondary-container/40" onclick="selectTime(this)" type="button">9:30 PM</button>
+</div>
+</div>
+<!-- Seating Preference -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface font-medium">Seating Environment</label>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+<label class="flex items-center gap-3 p-3.5 bg-surface-container-low rounded cursor-pointer hover:bg-surface-container transition-colors">
+<input checked="" class="accent-secondary" name="seating" type="radio" value="main"/>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Main Hearth Room</span>
+</label>
+<label class="flex items-center gap-3 p-3.5 bg-surface-container-low rounded cursor-pointer hover:bg-surface-container transition-colors">
+<input class="accent-secondary" name="seating" type="radio" value="counter"/>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Chef's Hearth Counter</span>
+</label>
+<label class="flex items-center gap-3 p-3.5 bg-surface-container-low rounded cursor-pointer hover:bg-surface-container transition-colors">
+<input class="accent-secondary" name="seating" type="radio" value="terrace"/>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Covered Garden Terrace</span>
+</label>
+</div>
+</div>
+<!-- Dietary / Requests -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface font-medium">Dietary Accommodations &amp; Special Occasions</label>
+<textarea class="w-full bg-surface-container-low px-4 py-3 rounded text-on-surface font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-lowest shadow-sm" placeholder="Please let us know of any severe food allergies, anniversary celebrations, or wine cellar preferences..." rows="3"></textarea>
+</div>
+<!-- Submit Button -->
+<button class="w-full py-4 bg-primary text-surface-container-lowest hover:bg-secondary-container hover:text-on-secondary-fixed transition-all duration-300 rounded font-label-md text-label-md uppercase tracking-widest shadow-md flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined text-lg">calendar_month</span>
+<span>Confirm Table Reservation</span>
+</button>
+</form>
+<!-- Feedback Notification State -->
+<div class="hidden mt-6 p-6 rounded-xl bg-surface-container text-on-surface text-center" id="booking-confirmation">
+<div class="w-12 h-12 rounded-full bg-secondary-container text-on-secondary-fixed mx-auto flex items-center justify-center mb-3">
+<span class="material-symbols-outlined text-2xl">check</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm mb-1">Reservation Request Received</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-md mx-auto">
+            Our sommelier and maître d' have noted your dining details. An SMS and email confirmation will arrive within 15 minutes.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 8: CONTACT, HOURS & LOCATION -->
+<section class="py-24 bg-surface-container-high text-on-surface" id="contact">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Contact Details -->
+<div class="lg:col-span-5 space-y-8">
+<div>
+<span class="font-label-sm text-label-sm tracking-widest text-secondary uppercase mb-2 block">Reach Our Salon</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Visit AURA</h2>
+</div>
+<div class="space-y-4">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary text-2xl mt-1">pin_drop</span>
+<div>
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-semibold">Location</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">428 Emberstone Boulevard, Arts &amp; Culinary District, Suite 100, San Francisco, CA</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary text-2xl mt-1">call</span>
+<div>
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-semibold">Direct Concierge</h4>
+<a class="font-body-sm text-body-sm text-secondary hover:underline" href="tel:+14158927400">(415) 892-7400</a>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary text-2xl mt-1">mail</span>
+<div>
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-semibold">Inquiries &amp; Events</h4>
+<a class="font-body-sm text-body-sm text-secondary hover:underline" href="mailto:reservations@aurabistro.com">reservations@aurabistro.com</a>
+</div>
+</div>
+</div>
+<!-- Social Channels -->
+<div>
+<h4 class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant mb-3">Connect &amp; Curations</h4>
+<div class="flex items-center gap-3">
+<a aria-label="Instagram" class="w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface hover:text-secondary shadow-sm transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">photo_camera</span>
+</a>
+<a aria-label="Reservations Platform" class="w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface hover:text-secondary shadow-sm transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">table_restaurant</span>
+</a>
+<a aria-label="Spotify Dining Ambience" class="w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface hover:text-secondary shadow-sm transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">graphic_eq</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Hours & Map Preview -->
+<div class="lg:col-span-7 space-y-6">
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm">
+<h3 class="font-headline-sm text-headline-sm mb-4">Hearth &amp; Service Hours</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 font-body-sm text-body-sm">
+<div class="p-3 bg-surface-container-low rounded">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary block font-semibold">Tuesday – Thursday</span>
+<span class="text-on-surface">5:00 PM – 10:30 PM</span>
+</div>
+<div class="p-3 bg-surface-container-low rounded">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary block font-semibold">Friday – Saturday</span>
+<span class="text-on-surface">5:00 PM – 11:30 PM</span>
+</div>
+<div class="p-3 bg-surface-container-low rounded">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary block font-semibold">Sunday Dinner</span>
+<span class="text-on-surface">4:30 PM – 9:30 PM</span>
+</div>
+<div class="p-3 bg-surface-container-low rounded">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline block font-semibold">Monday</span>
+<span class="text-on-surface-variant italic">Dark for Private Events &amp; Prep</span>
+</div>
+</div>
+</div>
+<!-- Stylized Realistic Dark Mode Map -->
+<div class="w-full h-64 rounded-xl shadow-md relative overflow-hidden bg-cover bg-center" data-location="428 Emberstone Boulevard, San Francisco, CA" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDch8WdTr7PbK-OS7tqJjEtmy2hyQztgHA6pcc6vhR86AkFkitmJ2zSXTxUaZn27VlkvhYuwnfE_7BPcv_tH8X_NIanBwXl76s2VrNevkf-Vk0-s2IUo2p7CINMbKbIKblzAeRor5VE36raNupm8a8rNoARnkyTtwo7FkihXSIKg6aSWzOcVBazFvcatI0EGqzV1idQY1Y54sorxSEK5_E2RbInqMkCVrNsQXylLWX9_6L77Qb8xHDHeg');">
+<div class="absolute inset-0 bg-primary/40 backdrop-blur-[2px]"></div>
+<div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/90 backdrop-blur-md p-4 rounded-lg flex items-center justify-between shadow-lg">
+<div>
+<p class="font-label-md text-label-md text-on-surface font-semibold">Arts &amp; Culinary District • Valet Available</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">742 Montgomery St • Embarcadero North</p>
+</div>
+<a class="px-4 py-2 bg-secondary text-surface-container-lowest font-label-sm text-label-sm uppercase tracking-wider rounded hover:bg-on-surface transition-colors flex items-center gap-1" href="https://maps.google.com" rel="noopener noreferrer" target="_blank">
+<span>Directions</span>
+<span class="material-symbols-outlined text-xs">navigation</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Logic -->
+<script>
+    function filterMenu(category, clickedBtn) {
+      const buttons = document.querySelectorAll('.menu-tab-btn');
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-primary', 'text-surface-container-lowest', 'shadow-sm');
+        btn.classList.add('bg-surface-container', 'text-on-surface-variant');
+      });
+      clickedBtn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+      clickedBtn.classList.add('bg-primary', 'text-surface-container-lowest', 'shadow-sm');
+
+      const items = document.querySelectorAll('.menu-item');
+      items.forEach(item => {
+        if (category === 'all' || item.classList.contains(category)) {
+          item.style.display = 'flex';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    let guests = 2;
+    function adjustGuests(change) {
+      guests = Math.max(1, Math.min(12, guests + change));
+      document.getElementById('guest-count-input').value = guests + (guests === 1 ? ' Guest' : ' Guests');
+    }
+
+    function selectTime(btn) {
+      document.querySelectorAll('.time-slot-btn').forEach(b => {
+        b.classList.remove('bg-secondary-container', 'text-on-secondary-fixed', 'font-semibold');
+        b.classList.add('bg-surface-container', 'text-on-surface');
+      });
+      btn.classList.remove('bg-surface-container', 'text-on-surface');
+      btn.classList.add('bg-secondary-container', 'text-on-secondary-fixed', 'font-semibold');
+    }
+
+    function handleReservation(e) {
+      e.preventDefault();
+      document.getElementById('booking-confirmation').classList.remove('hidden');
+      document.getElementById('reservation-form').reset();
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface-variant pt-space-xl pb-space-lg shadow-[0_1px_8px_rgba(0,0,0,0.02)]"><div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter mb-space-xl"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="AURA Bistro &amp; Hearth Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WQLHOsLf6zo_4XNhkn7ucTJ4Xo5km-flo2XnrC2i2uNJ-Wk31_RBcOujNcRdK1qotS6PhaJ4epFtMi9wNvSnzbLfqpIICF_2NrciQPdGzEYiWtNAfKTGkBg6N-LA2ZePGkpW620wJ0QmlbUzyzLg3jpfniUg1Jvqf-T_XmqDduV1kmdQXkyTj7crXOYlGgCV37NpI-S2OqOLO9TzFfdjJnKxi-m5rXxZ4R1TF-l5Rq1S9lrjYIZZqIhVjx"/><span class="font-headline-sm text-headline-sm text-on-surface leading-none">AURA</span></div><p class="font-body-md text-body-md text-on-surface-variant pr-space-md">An intimate hearth-centered dining sanctuary uniting artisanal fire-cooking with delicate culinary discipline in the historic marina district.</p><div class="flex items-center gap-space-sm text-secondary"><span class="material-symbols-outlined text-base">verified</span><span class="font-label-sm text-label-sm tracking-wider uppercase text-on-surface font-semibold">Michelin Selected 2024</span></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Hours &amp; Hearth</h3><ul class="space-y-space-xs font-body-sm text-body-sm"><li class="flex justify-between border-b border-surface-container py-space-xs"><span>Wednesday – Thursday</span><span class="font-medium text-on-surface">5:00 PM – 10:30 PM</span></li><li class="flex justify-between border-b border-surface-container py-space-xs"><span>Friday – Saturday</span><span class="font-medium text-on-surface">5:00 PM – 11:30 PM</span></li><li class="flex justify-between border-b border-surface-container py-space-xs"><span>Sunday Dinner</span><span class="font-medium text-on-surface">4:30 PM – 9:30 PM</span></li><li class="flex justify-between py-space-xs text-on-surface-variant"><span class="italic">Monday &amp; Tuesday</span><span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Dark / Private Fires</span></li></ul></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Navigation</h3><ul class="space-y-space-xs font-label-md text-label-md uppercase tracking-wider"><li><a class="hover:text-secondary transition-colors" data-path="about-our-story" href="#about">Our Hearth Story</a></li><li><a class="hover:text-secondary transition-colors" data-path="culinary-menu" href="#menu">Tasting &amp; À La Carte</a></li><li><a class="hover:text-secondary transition-colors" data-path="hearth-specials" href="#specials">Nightly Forage</a></li><li><a class="hover:text-secondary transition-colors" data-path="table-reservation" href="#reservation">Chef's Table Booking</a></li><li><a class="hover:text-secondary transition-colors" data-path="contact-and-hours" href="#contact">Private Salon Inquiries</a></li></ul></div><div class="lg:col-span-3 flex flex-col gap-space-md"><h3 class="font-headline-sm text-headline-sm text-on-surface">The Hearth Gazette</h3><p class="font-body-sm text-body-sm text-on-surface-variant">Receive seasonal tasting menu debuts, rare cellar releases, and priority reservation allocations.</p><form class="flex flex-col gap-space-xs"><div class="flex items-center rounded-lg bg-surface-container-lowest p-1 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><input class="w-full bg-transparent px-space-sm py-space-xs font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:outline-none" placeholder="Your email address" type="email"/><button class="bg-primary text-on-primary px-space-md py-space-xs rounded font-label-sm text-label-sm uppercase tracking-wider hover:bg-secondary hover:text-on-secondary transition-all" type="button">Join</button></div><span class="font-label-sm text-label-sm text-on-surface-variant">We honor your silence. Never shared, curated seasonally.</span></form></div></div><div class="pt-space-lg border-t border-surface-container flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm"><p>© 2024 AURA Bistro &amp; Hearth LLC. All rights reserved. 742 Montgomery St, San Francisco, CA.</p><div class="flex items-center gap-space-md font-label-sm text-label-sm uppercase tracking-wider"><a class="hover:text-on-surface transition-colors" data-path="contact-and-hours" href="#">Dietary Accommodations</a><span class="text-outline-variant">•</span><a class="hover:text-on-surface transition-colors" data-path="contact-and-hours" href="#">Corkage &amp; Attire</a><span class="text-outline-variant">•</span><a class="hover:text-on-surface transition-colors" data-path="contact-and-hours" href="#">Privacy Policy</a></div></div></div></footer></body></html>
